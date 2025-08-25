@@ -14,13 +14,17 @@ Developed a multi-factor risk model for U.S. investment-grade (IG) corporate bon
 - Produced attribution charts to highlight which macro/market exposures explain IG credit risk in different market          regimes.
   
 ### 2. Scenario & Stress Testing
-- Parallel shifts, recession, higher-for-longer, and risk-off scenarios.
-- Duration & spread duration impact on portfolio.
-- Historical **VaR / Expected Shortfall** extensions.
-
-### 3. Performance Attribution (High Yield)
-- Brinson allocation/selection decomposition vs benchmark.
-- Attribution reporting and alpha source identification.
+Built a scenario and stress testing framework for a diversified fixed-income portfolio:
+- Modeled parallel rate shifts, recession scenarios, higher-for-longer, and risk-off environments to test portfolio         resilience.
+- Measured duration and spread duration impacts under shocks to interest rates and credit spreads.
+- Extended analysis with historical Value-at-Risk (VaR) and Expected Shortfall to capture tail risk exposures.
+- Produced stress dashboards to visualize potential mark-to-market losses across scenarios.
+  
+### 3. Performance Attribution (High Yield
+Performed performance attribution analysis on high-yield credit strategies:
+- Applied Brinson-style allocation and selection decomposition to compare active positioning vs. benchmark.
+- Quantified alpha sources by separating sector allocation effects from security selection skill.
+- Generated attribution reports showing how much outperformance derived from top-down vs. bottom-up drivers.
 
 ---
 
@@ -43,4 +47,5 @@ Katherine Cohen
 🎓 FRM Candidate | 📈 Fixed Income & Risk Management
 Copy
 Edit
+
 

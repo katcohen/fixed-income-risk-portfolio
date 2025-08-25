@@ -7,10 +7,12 @@ Designed to showcase professional work products for roles such as **Credit Analy
 
 ## 🚀 Projects
 
-### 1. Factor Model & Risk Attribution (IG Credit)
-- OLS + robust SE regression of IG credit returns vs equity, HY beta, oil, and rates.
-- Variance decomposition to identify risk drivers.
-
+### 1. Factor Model & Risk Attribution (IG Credit) 
+Developed a multi-factor risk model for U.S. investment-grade (IG) corporate bond portfolios:
+- Ran OLS regressions with robust (HC3) standard errors of IG excess returns on key market factors (equity index, HY        credit beta, oil prices, and Treasury rate shifts).
+- Conducted variance decomposition to identify the primary drivers of portfolio risk, quantifying factor contributions      vs. idiosyncratic risk.
+- Produced attribution charts to highlight which macro/market exposures explain IG credit risk in different market          regimes.
+  
 ### 2. Scenario & Stress Testing
 - Parallel shifts, recession, higher-for-longer, and risk-off scenarios.
 - Duration & spread duration impact on portfolio.
@@ -41,3 +43,4 @@ Katherine Cohen
 🎓 FRM Candidate | 📈 Fixed Income & Risk Management
 Copy
 Edit
+

@@ -1,3 +1,4 @@
+
 import pandas as pd, numpy as np, yfinance as yf, statsmodels.api as sm
 from pandas_datareader import data as pdr
 from datetime import date
@@ -45,3 +46,10 @@ plt.ylabel("Variance Share (%)"); plt.title("Factor Variance Contribution")
 plt.grid(True, axis="y")
 fig.tight_layout()
 fig.savefig("outputs/factor_variance_share.png", dpi=150)
+import os, pandas as pd
+os.makedirs("outputs", exist_ok=True)
+pd.DataFrame({"beta": betas, "variance_share": var_contrib}).to_csv(
+    "outputs/factor_attrib_cfa_betas_variance.csv",
+    float_format="%.6f"
+)
+

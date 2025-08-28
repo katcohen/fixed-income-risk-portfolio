@@ -1,0 +1,15 @@
+# Fixed Income Scenario & Stress — Portfolio Oversight
+Date: {{YYYY-MM-DD}}
+
+## Scenarios
+- Parallel +100 bps; Recession (+150bps spreads, -50bps rates);
+  Higher-for-longer (+50/+50); Risk-off (-75/+200).
+
+## Results (ΔP/P)
+| Scenario | ΔPortfolio (%) |
+|---------|-----------------|
+| …       | …               |
+
+## Interpretation
+- Biggest loss driver: {{rates or spreads}} via {{sleeve}}.
+- Recommend: trim {{sleeve}}, add hedge (futures/swaps), target duration {{x}} and spread duration {{y}}.

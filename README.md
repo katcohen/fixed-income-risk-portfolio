@@ -1,7 +1,7 @@
 # 📊 Fixed-Income Risk Portfolio
 
-A collection of projects demonstrating **post-graduate / GARP FRM-level skills** in fixed income, credit risk, and portfolio analysis.  
-Designed to showcase professional work products for roles such as **Credit Analyst, Fixed Income Associate, and Investment Risk Analyst**.
+A collection of projects demonstrating knowledge and skills in fixed income, credit risk, and portfolio analysis.  
+
 
 ---
 
@@ -47,5 +47,6 @@ Katherine Cohen
 🎓 FRM Candidate | 📈 Fixed Income & Risk Management
 Copy
 Edit
+
 
 

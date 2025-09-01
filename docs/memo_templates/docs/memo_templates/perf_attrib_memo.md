@@ -1,6 +1,6 @@
 # High Yield Portfolio Performance Attribution — Analyst Memo  
 
-**Date:** {{insert date of analysis}}  
+**Date:** August, 25, 2025  
 **Analyst:** Katherine Cohen  
 
 ## Executive Summary  

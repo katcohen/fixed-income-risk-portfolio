@@ -1,6 +1,6 @@
 # High Yield Portfolio Performance Attribution — Analyst Memo  
 
-**Date:** August, 25, 2025  
+**Date:** August 25, 2025  
 **Analyst:** Katherine Cohen  
 
 ## Executive Summary  
@@ -26,9 +26,9 @@ We performed a Brinson-style attribution of HY portfolio performance relative to
 | Active Return | {{8.0}} | Total portfolio alpha vs benchmark. |  
 
 ## Interpretation  
-- Outperformance primarily from **selection skill** in {{HY/EM sleeve}}.  
-- Allocation contributed modestly, but interaction effect small.  
-- Active return is consistent with risk budgeting.  
+- Positive selection indicates security/sector picks outperformed the benchmark sleeves.
+- Allocation detracted due to underweight in {bench sleeve} during a strong month.
+- Next steps: validate over multiple months (time-series attribution) and link to sleeve-level risk exposures.  
 
 ## Implications & Actions  
 - Reinforce alpha sleeves; reduce unintended exposures.  

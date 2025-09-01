@@ -1,15 +1,48 @@
-# Fixed Income Scenario & Stress — Portfolio Oversight
-Date: {{YYYY-MM-DD}}
+# Stress Testing Report
+**As of:** August 29, 2025 
+**Prepared by:** Katherine Cohen
+
+## Executive Summary
+- **Portfolio MV:** ${MV} | **Mod. Duration:** {DUR}y | **Convexity:** {CONV}y²  
+- **Spread Duration:** {SDUR}y | **DV01:** ${DV01}/bp | **SDV01:** ${SDV01}/bp  
+- Under the defined scenarios, the portfolio’s **worst point estimate** is **{WORST_SCEN_LABEL}: {WORST_SCEN_PCT}% ({WORST_SCEN_USD})**, driven primarily by **{WORST_DRIVERS}**.
+- Tail risk (1-day): **VaR 95% = {VaR95} | ES 95% = {ES95}** (returns in % of MV or $ as noted).
+
+## Portfolio Overview
+- Objective & mandate: {OBJECTIVE}  
+- Composition: {SUMMARY_ONE_LINER}  
+- Key risk exposures: rates ({DUR}y), spreads ({SDUR}y), and concentration in **{TOP_SECTORS}**.
+
+## Methodology
+**Pricing & risk:** full reprice using bond cashflows; parallel & key-rate bumps for rates; OAS shocks for credit.  
+**Scenarios:** deterministic shifts in curve and spreads; HY legs use larger shocks than IG.  
+**Risk metrics:**  
+- **VaR/ES:** historical (window {VAR_WINDOW}d), confidence 95% ({VAR_HORIZON}-day horizon, returns as pct MV).  
+- **Aggregation:** sector-level contributions use marginal DV01/SDV01 and scenario deltas.
 
 ## Scenarios
-- Parallel +100 bps; Recession (+150bps spreads, -50bps rates);
-  Higher-for-longer (+50/+50); Risk-off (-75/+200).
+1. **Higher-for-Longer:** +25bp (2y), +100bp (10y); IG +50bp, HY +100bp  
+2. **Recession / Widening:** Parallel +150bp spreads (IG +125, HY +250), rates −50bp  
+3. **Risk-off Flight to Quality:** UST −75bp (belly −50, long −100), IG +40bp, HY +200bp  
 
-## Results (ΔP/P)
-| Scenario | ΔPortfolio (%) |
-|---------|-----------------|
-| …       | …               |
+> Assumptions can be edited in `python/stress/config.py`.
 
-## Interpretation
-- Biggest loss driver: {{rates or spreads}} via {{sleeve}}.
-- Recommend: trim {{sleeve}}, add hedge (futures/swaps), target duration {{x}} and spread duration {{y}}.
+## Results — P&L by Scenario (percent of MV)
+{{SCENARIO_TABLE}}
+
+## Risk Contributions — Top Sectors/Sleeves (worst scenario)
+{{SECTOR_TABLE}}
+
+## Diagnostics
+- **Key Rate DV01 (2y/5y/10y/30y):** {{KRD_ROW}}  
+- **Spread DV01 by rating bucket (IG/HY):** {{SDV01_ROW}}  
+- **Largest single-name downside contributors (Top 5):** {{TOP5_LOSERS}}
+
+## Recommendation
+- **Hedge:** Reduce **{HEDGE_TARGET}** by {HEDGE_BP}bp DV01 via {HEDGE_INSTRUMENT} to cap steepener downside.  
+- **Rotate:** Trim **{TRIM_SECTOR}** (spread beta {TRIM_BETA}) and add **{ADD_SECTOR}** (beta {ADD_BETA}) to diversify factor exposure.  
+- **Liquidity:** Maintain cash buffer of {LIQ_BUFFER}% MV to meet redemptions under stress.
+
+---
+
+*Notes:* Results are model-based point estimates; realized P&L may differ with liquidity, convexity, and basis moves. All figures gross of fees unless stated.

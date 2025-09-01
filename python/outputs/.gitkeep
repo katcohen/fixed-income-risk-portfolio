@@ -1,1 +1,16 @@
 ~/Documents/fixed-income-risk-portfolio/python/outputs/hy_perf_attrib_example.csv
+
+MacBook-Air:python katherinecohen$ python3 src/performance_attrib.py
+Allocation      -0.0003
+Selection        0.0013
+Interaction     -0.0002
+Active Return    0.0008
+dtype: float64
+
+Attribution (bps):
+Allocation       -3.0
+Selection        13.0
+Interaction      -2.0
+Active Return     8.0
+dtype: float64
+MacBook-Air:python katherinecohen$

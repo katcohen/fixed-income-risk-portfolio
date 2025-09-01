@@ -45,8 +45,7 @@ fixed-income-risk-portfolio/
 ## ✍️ Author
 Katherine Cohen  
 🎓 FRM Candidate | 📈 Fixed Income & Risk Management
-Copy
-Edit
+
 
 
 

@@ -1,6 +1,6 @@
 # Fixed Income Scenario & Stress — Analyst Memo  
 
-**Date:** {{insert date of analysis}}  
+**Date:** August 25, 2025  
 **Analyst:** Katherine Cohen  
 
 ## Executive Summary  

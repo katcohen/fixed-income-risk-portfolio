@@ -1,0 +1,36 @@
+# High Yield Portfolio Performance Attribution — Analyst Memo  
+
+**Date:** August, 25, 2025  
+**Analyst:** Katherine Cohen  
+
+## Executive Summary  
+We performed a Brinson-style attribution of HY portfolio performance relative to a benchmark.  
+- Active return of **{{X%}}** driven by allocation and selection effects.  
+- **Selection** in {{sleeve}} was the primary alpha source.  
+- **Allocation** effects reflect overweight/underweight positions vs benchmark.  
+
+## Methodology  
+- Benchmark: HY composite index.  
+- Portfolio sleeves: HY Core, HY Short Duration, EM Bonds.  
+- Attribution components:  
+  - **Allocation Effect:** (Portfolio weight – Benchmark weight) × Benchmark return  
+  - **Selection Effect:** Benchmark weight × (Portfolio return – Benchmark return)  
+  - **Interaction Effect:** Combined effect of allocation & selection  
+
+## Results  
+| Component     | Contribution (bps) | Commentary |  
+|---------------|---------------------|------------|  
+| Allocation    | {{X}} | Positive from overweight in {{sleeve}}. |  
+| Selection     | {{Y}} | Strong alpha in {{sleeve}}. |  
+| Interaction   | {{Z}} | Secondary impact. |  
+| Active Return | {{Total}} | Total portfolio alpha vs benchmark. |  
+
+## Interpretation  
+- Outperformance primarily from **selection skill** in {{HY/EM sleeve}}.  
+- Allocation contributed modestly, but interaction effect small.  
+- Active return is consistent with risk budgeting.  
+
+## Implications & Actions  
+- Reinforce alpha sleeves; reduce unintended exposures.  
+- Monitor tracking error and concentration risk.  
+- Extend to multi-period attribution to confirm persistence of alpha.

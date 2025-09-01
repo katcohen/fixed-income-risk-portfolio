@@ -5,7 +5,7 @@
 
 ## Executive Summary  
 We performed a Brinson-style attribution of HY portfolio performance relative to a benchmark.  
-- Active return of **{{X%}}** driven by allocation and selection effects.  
+- Active return of **{{8%}}** driven by allocation and selection effects.  
 - **Selection** in {{sleeve}} was the primary alpha source.  
 - **Allocation** effects reflect overweight/underweight positions vs benchmark.  
 
@@ -20,10 +20,10 @@ We performed a Brinson-style attribution of HY portfolio performance relative to
 ## Results  
 | Component     | Contribution (bps) | Commentary |  
 |---------------|---------------------|------------|  
-| Allocation    | {{X}} | Positive from overweight in {{sleeve}}. |  
-| Selection     | {{Y}} | Strong alpha in {{sleeve}}. |  
-| Interaction   | {{Z}} | Secondary impact. |  
-| Active Return | {{Total}} | Total portfolio alpha vs benchmark. |  
+| Allocation    | {{-3.0}} | Positive from overweight in {{sleeve}}. |  
+| Selection     | {{13.0}} | Strong alpha in {{sleeve}}. |  
+| Interaction   | {{-2.0}} | Secondary impact. |  
+| Active Return | {{8.0}} | Total portfolio alpha vs benchmark. |  
 
 ## Interpretation  
 - Outperformance primarily from **selection skill** in {{HY/EM sleeve}}.  

@@ -1,15 +1,7 @@
 
 
-## Executive Summary
-- Portfolio attribution based on CFA-style fixed-income factor framework.
-- OLS regression with HC3 robust errors applied to IG credit portfolio returns (2015–2025).
-- Main finding: **Credit spread factor** explains ~96% of systematic variance.
-- Other factors (level, slope, inflation) play minor roles.
-
-## Method
-- Portfolio: 30% Treasuries (IEF), 30% IG (LQD), 20% HY (HYG), 10% EM (EMB), 10% TIPS (TIP).
-
-**Date:** {{insert date of analysis}}  
+# IG Credit Portfolio Factor Attribution — Analyst Memo  
+  
 **Analyst:** Katherine Cohen  
 
 ## Executive Summary  
@@ -51,4 +43,4 @@ Results show the portfolio’s performance is overwhelmingly explained by credit
 - **Risk Oversight:** Portfolio is highly exposed to credit spread widening, which could severely impact returns in a risk-off environment.  
 - **Portfolio Construction:** Consider reducing credit overweight or adding explicit hedges (CDX IG, HY protection).  
 - **Strategic View:** Slope sensitivity suggests curve trades matter; monitor Fed policy outlook for steepening/flattening triggers.  
-- **Next Steps:** Extend analysis with rolling betas to assess regime dependence (e.g., pre/post-COVID, high inflation era). 
+- **Next Steps:** Extend analysis with rolling betas to assess regime dependence (e.g., pre/post-COVID, high inflation era).  

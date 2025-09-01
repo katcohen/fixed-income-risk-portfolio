@@ -1,19 +1,4 @@
 
-- **Credit factor dominates** (≈ 96% variance share).
-- **Slope** is modest but statistically significant (beta ≈ -0.009).
-- **Level** and **Inflation** factors explain very little variance.
-
-## Key Findings
-- Portfolio is most sensitive to **credit spread risk**.
-- Slope exposure indicates vulnerability to **curve flatteners**.
-- Rate level (10Y) and breakeven inflation add minimal explanatory power.
-
-## Implications
-- Portfolio is essentially a **credit beta trade**.
-- Oversight recommendation: introduce **rate hedges** (Treasuries) or reduce HY/IG tilt to balance risk.
-- Next step: monitor rolling betas to capture regime shifts.
-# IG Credit Factor Attribution — Research Note
-Date: 2025-08-26
 
 ## Executive Summary
 - Portfolio attribution based on CFA-style fixed-income factor framework.
@@ -23,8 +8,6 @@ Date: 2025-08-26
 
 ## Method
 - Portfolio: 30% Treasuries (IEF), 30% IG (LQD), 20% HY (HYG), 10% EM (EMB), 10% TIPS (TIP).
-- Factors:
-  # IG Credit Portfolio Factor Attribution — Analyst Memo  
 
 **Date:** {{insert date of analysis}}  
 **Analyst:** Katherine Cohen  

@@ -1,7 +1,8 @@
 
 
 # IG Credit Portfolio Factor Attribution — Analyst Memo  
-  
+
+**Date:** August 25, 2025
 **Analyst:** Katherine Cohen  
 
 ## Executive Summary  

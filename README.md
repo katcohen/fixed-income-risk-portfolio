@@ -20,12 +20,16 @@ Built a scenario and stress testing framework for a diversified fixed-income por
 - Extended analysis with historical Value-at-Risk (VaR) and Expected Shortfall to capture tail risk exposures.
 - Produced stress dashboards to visualize potential mark-to-market losses across scenarios.
   
-### 3. Performance Attribution (High Yield
+### 3. Performance Attribution (High Yield)
 Performed performance attribution analysis on high-yield credit strategies:
 - Applied Brinson-style allocation and selection decomposition to compare active positioning vs. benchmark.
 - Quantified alpha sources by separating sector allocation effects from security selection skill.
 - Generated attribution reports showing how much outperformance derived from top-down vs. bottom-up drivers.
 
+### 4. Fixed-Income (FI) Model Portfolio 
+- Prices from Yahoo Finance; daily total-return proxies via adjusted close.
+- Portfolio return = ∑(sleeve return × weight), rebalanced implicitly by weights.
+- Summary metrics: annualized return/volatility, Sharpe (rf=0 as implemented), and max drawdown.
 ---
 
 ## 🛠️ Tech Stack
@@ -45,6 +49,7 @@ fixed-income-risk-portfolio/
 ## ✍️ Author
 Katherine Cohen  
 🎓 FRM Candidate | 📈 Fixed Income & Risk Management
+
 
 
 

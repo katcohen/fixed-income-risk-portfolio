@@ -38,4 +38,4 @@ Historical Risk:
 ## Implications & Actions  
 - Add credit hedges (CDX HY/IG).  
 - Reduce HY exposure or shift to shorter-duration IG.  
-- Rebalance toward Treasuries/MBS for downside protection.  nvexity, and basis moves. All figures gross of fees unless stated.
+- Rebalance toward Treasuries/MBS for downside protection.  

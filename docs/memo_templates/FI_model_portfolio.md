@@ -1,8 +1,6 @@
 Fixed-Income Model Portfolio — Analyst Memo
 
 Analyst: Katherine Cohen
-Period: 2015-present (daily)
-Implementation: ETF sleeves per advisor-style allocation
 
 Objective:
 Evaluate a diversified, advisor-style fixed-income model portfolio built from liquid ETFs and identify risk drivers and actionable improvements under current macro conditions (sticky inflation, “higher-for-longer” policy risk, tariff-related cost pressures, and late-cycle growth uncertainty).

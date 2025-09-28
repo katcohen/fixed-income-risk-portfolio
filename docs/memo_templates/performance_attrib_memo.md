@@ -1,3 +1,5 @@
+Source: [Performance Attribution Analysis](https://github.com/katcohen/fixed-income-risk-portfolio/blob/main/python/src/performance_attrib.py)
+
 # High Yield Portfolio Performance Attribution — Analyst Memo  
 
 **Date:** August 25, 2025  

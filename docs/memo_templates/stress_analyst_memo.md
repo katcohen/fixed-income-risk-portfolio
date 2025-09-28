@@ -1,3 +1,5 @@
+Source: [Stress Testing Engine](https://github.com/katcohen/fixed-income-risk-portfolio/blob/main/python/src/stress_engine.py)
+
 # Fixed Income Scenario & Stress — Analyst Memo  
 
 **Date:** August 25, 2025  

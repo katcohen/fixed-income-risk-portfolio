@@ -1,3 +1,5 @@
+Source: [Fixed-Income Portfolio Analysis](https://github.com/katcohen/fixed-income-risk-portfolio/blob/main/python/src/fi_model_portfolio.py)
+
 # Fixed-Income Model Portfolio — Analyst Memo  
 **Analyst:** Katherine Cohen  
 

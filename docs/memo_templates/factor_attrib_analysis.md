@@ -1,4 +1,4 @@
-
+Source: [Portfolio Factor Attribution Analysis](https://github.com/katcohen/fixed-income-risk-portfolio/blob/main/python/src/factor_attrib_cfa.py)
 
 # IG Credit Portfolio Factor Attribution — Analyst Memo  
 
